@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+
+
+    background: linear-gradient(rgba(1, 31, 255, 0.884), rgba(194, 23, 236, 0.476));
+    font-family: 'Oswald', sans-serif;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    border-radius: 10px;
+
+}
+
+a{
+    color: #f8f4f4;
+    text-decoration: none;
+    
+}
+ul{
+    list-style: none;
+} 
+
+
+.conteiner{
+    width: 90%;
+    margin: auto; 
+}
+
+.nav-main{
+    	font-size: 17px;
+	display: flex;
+	justify-content: space-between;
+    	align-items: center;
+   	height: 60px;
+   	padding:  20px 0 ;    
+}
+.nav-brand{
+	margin-top: 80px;
+   	width: 100px;
+}
+/*Man main */
+	.nav-main ul {
+   	display: flex;
+}
+.nav-main ul li a {
+   	 padding: 3px;
+}
+.nav-main ul li{
+   	 padding: 10px;
+}
+.nav-main ul.nav-menu{
+    	flex: 1;
+   	margin-left: 20px;
+}
+.nav-main ul li a:hover{
+   	border-bottom: 3px solid #4cbdea;
+}
+
+.titular{
+    	text-align: center ;
+    	margin: 200px ;
+}
+.PaginasExternas{
+   	 text-align: center ;
+   	 margin: 200px ;
+}
+hr { clear: both;}
+video { 
+  	float:left; 
+  	margin-right: 20px;
+ 	 margin-bottom: 20px;
+}
+img { 
+	float:left;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+m {
+   	color: #f8f4f4;
+  	font-size: 18px;
+   	font-style: italic;
+}
+h1{
+  	text-align: center ;
+  	color: #f8f4f4;
+   	font-size: 40px;
+   	margin: 14px;
+}
+h2{
+   	 text-align: center ;
+    	color: #f8f4f4;
+   	font-size: 20px;
+   	margin: 14px;
+}
+a {
+   	color: #f8f4f4;
+   	font-size: 18px;
+}
+p {
+    	line-height: 150% ;
+    	color: #f8f4f4;
+}
